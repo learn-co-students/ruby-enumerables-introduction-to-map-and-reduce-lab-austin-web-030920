@@ -61,7 +61,7 @@ end
 
 
 def reduce_to_all_true(source_array)
- if source_array.all? true
+ if source_array.all?
    return true
  else return false
  end
